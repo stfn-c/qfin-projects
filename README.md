@@ -10,4 +10,4 @@ Algorithmic trading projects built for the UWA Quantitative Finance Society (QFi
 
 ### [sem2-trading-bot](./sem2-trading-bot/) - NIFTY Trader
 
-Market-making bot for a turn-based simulated exchange. Built iteratively across 13+ strategy versions with ML-based direction prediction (Random Forest), momentum discovery, and adaptive position management. Includes a full research pipeline with Jupyter notebooks and automated model exports.
+1st place finish. Volatility-adaptive market-making bot evolved across 13 iterations - from simple spread undercuts to ML-augmented direction prediction (Random Forest, CatBoost) with confidence-gated entries. Solo entry against pair-based teams.
