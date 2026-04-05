@@ -1,0 +1,69 @@
+{
+  "model_type": "Balanced RF_25_trees",
+  "model_name": "Balanced_RF_25_trees",
+  "selection_criteria": "Good accuracy (\u226575%) + Very fast (<5ms)",
+  "accuracy": 0.7976703366842189,
+  "avg_prediction_time_ms": 0.8500472623474744,
+  "predictions_per_second": 1176.4051768585418,
+  "time_20k_predictions_sec": 17.00094524694949,
+  "training_time_seconds": 0.49048614501953125,
+  "n_features": 8,
+  "features": [
+    "price_returns",
+    "price_returns_2",
+    "size_imbalance",
+    "volume_imbalance",
+    "spread_pct",
+    "volatility_5",
+    "momentum_ratio",
+    "total_volume"
+  ],
+  "file_size_mb": 0.6575098037719727,
+  "needs_scaling": false,
+  "n_train": 18799,
+  "n_test": 6267,
+  "export_timestamp": "20250902_215922",
+  "model_filename": "balanced_model_RF_25_trees_20250902_215922.joblib",
+  "comparison": {
+    "vs_ultra_fast": {
+      "accuracy_improvement": "6.4%",
+      "speed_cost": "4.7x slower"
+    },
+    "vs_full_model": {
+      "speed_improvement": "43.5x faster",
+      "accuracy_cost": "TBD (need full model accuracy)"
+    }
+  },
+  "all_model_results": [
+    {
+      "model": "RF_25_trees",
+      "accuracy": 0.7976703366842189,
+      "avg_time_ms": 0.8500472623474744,
+      "pred_per_sec": 1176.4051768585418
+    },
+    {
+      "model": "Deep_Tree",
+      "accuracy": 0.7866602840274454,
+      "avg_time_ms": 0.04640095161669182,
+      "pred_per_sec": 21551.282143107383
+    },
+    {
+      "model": "RF_15_trees",
+      "accuracy": 0.7849050582415829,
+      "avg_time_ms": 0.5965096679407379,
+      "pred_per_sec": 1676.4187635921905
+    },
+    {
+      "model": "ExtraTrees_20",
+      "accuracy": 0.7624062549864369,
+      "avg_time_ms": 0.6261101322601381,
+      "pred_per_sec": 1597.163100348162
+    },
+    {
+      "model": "Logistic_Tuned",
+      "accuracy": 0.7151747247486836,
+      "avg_time_ms": 0.04491125523802723,
+      "pred_per_sec": 22266.13339351247
+    }
+  ]
+}

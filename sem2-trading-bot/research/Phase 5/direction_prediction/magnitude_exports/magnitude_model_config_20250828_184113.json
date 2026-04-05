@@ -1,0 +1,106 @@
+{
+  "model_info": {
+    "approach": "Extreme_Moves",
+    "model_name": "RF_Extreme_Classifier",
+    "horizon": 1,
+    "correlation": 0.8218085106382979,
+    "mae": 0.17819148936170215,
+    "training_features": 19
+  },
+  "performance_summary": {
+    "total_experiments": 30,
+    "approaches_tested": [
+      "Advanced_Regression",
+      "Classification",
+      "Enhanced_Features",
+      "Extreme_Moves"
+    ],
+    "best_correlation_overall": 0.8218085106382979,
+    "mean_correlation": 0.1613777301881279,
+    "std_correlation": 0.271641250338459
+  },
+  "feature_list": [
+    "price_returns",
+    "price_returns_2",
+    "price_returns_5",
+    "recent_price_range",
+    "price_acceleration",
+    "spread",
+    "spread_vs_recent",
+    "size_imbalance",
+    "extreme_size_imbalance",
+    "volume_imbalance",
+    "total_volume",
+    "volume_vs_recent",
+    "volatility_5",
+    "volatility_10",
+    "volatility_20",
+    "price_vs_ma5",
+    "distance_from_ma5",
+    "price_momentum_3",
+    "momentum_strength_3"
+  ],
+  "training_data_info": {
+    "version": "v7",
+    "round": "round_1",
+    "total_clean_ticks": 40198,
+    "whale_filtered": true
+  },
+  "prediction_examples": [
+    {
+      "example": 1,
+      "actual": 0.0,
+      "predicted": 0.17224999999999105,
+      "error": 0.17224999999999105,
+      "error_pct": Infinity,
+      "volatility": 0.3162277660168379,
+      "spread": 4.099999999999909,
+      "volume": 21.0
+    },
+    {
+      "example": 2,
+      "actual": 1.2000000000000455,
+      "predicted": 0.3612500000000042,
+      "error": 0.8387500000000413,
+      "error_pct": 69.89583333333412,
+      "volatility": 0.0199999999999818,
+      "spread": 3.5,
+      "volume": 44.0
+    },
+    {
+      "example": 3,
+      "actual": 0.049999999999954525,
+      "predicted": 0.0637499999999866,
+      "error": 0.01375000000003207,
+      "error_pct": 27.500000000089152,
+      "volatility": 0.0400000000000034,
+      "spread": 3.7999999999999545,
+      "volume": 13.0
+    },
+    {
+      "example": 4,
+      "actual": 0.049999999999954525,
+      "predicted": 0.02999999999997751,
+      "error": 0.019999999999977015,
+      "error_pct": 39.99999999999041,
+      "volatility": 0.048989794855619,
+      "spread": 3.900000000000091,
+      "volume": 2.0
+    },
+    {
+      "example": 5,
+      "actual": 0.0,
+      "predicted": 0.11827845644671992,
+      "error": 0.11827845644671992,
+      "error_pct": Infinity,
+      "volatility": 0.5986651818838072,
+      "spread": 3.6000000000000227,
+      "volume": 3.0
+    }
+  ],
+  "export_info": {
+    "timestamp": "20250828_184113",
+    "export_type": "magnitude_prediction",
+    "notebook_version": "comprehensive_v1"
+  }
+}

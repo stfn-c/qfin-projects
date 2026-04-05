@@ -1,0 +1,47 @@
+{
+  "model_type": "Ultra-Fast Single_Tree",
+  "model_name": "UltraFast_Single_Tree",
+  "accuracy": 0.7344215978653272,
+  "avg_prediction_time_ms": 0.1797018051147461,
+  "predictions_per_second": 5564.774373643402,
+  "time_20k_predictions_sec": 3.594036102294922,
+  "training_time_seconds": 0.032469987869262695,
+  "n_features": 4,
+  "features": [
+    "price_returns",
+    "size_imbalance",
+    "volume_momentum",
+    "spread_pct"
+  ],
+  "file_size_mb": 0.025277137756347656,
+  "n_train": 19113,
+  "n_test": 6371,
+  "export_timestamp": "20250902_215539",
+  "model_filename": "ultra_fast_model_Single_Tree_20250902_215539.joblib",
+  "all_model_results": [
+    {
+      "model": "Micro_RF_10",
+      "accuracy": 0.7350494427876314,
+      "avg_time_ms": 0.5250906944274902,
+      "pred_per_sec": 1904.43291151885
+    },
+    {
+      "model": "Micro_RF_5",
+      "accuracy": 0.7309684507926543,
+      "avg_time_ms": 0.429180383682251,
+      "pred_per_sec": 2330.0226152469318
+    },
+    {
+      "model": "Single_Tree",
+      "accuracy": 0.7344215978653272,
+      "avg_time_ms": 0.1797018051147461,
+      "pred_per_sec": 5564.774373643402
+    },
+    {
+      "model": "Logistic",
+      "accuracy": 0.6958091351436195,
+      "avg_time_ms": 0.16496491432189941,
+      "pred_per_sec": 6061.895064841967
+    }
+  ]
+}

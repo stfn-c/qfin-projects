@@ -1,0 +1,26 @@
+{
+  "model_type": "Compact RandomForestClassifier",
+  "model_name": "Compact_RF_Fast",
+  "accuracy": 0.8271856851357715,
+  "n_estimators": 50,
+  "max_depth": 8,
+  "n_features": 9,
+  "features": [
+    "price_returns",
+    "price_returns_2",
+    "spread_pct",
+    "size_imbalance",
+    "price_momentum_3",
+    "volatility_5",
+    "total_volume",
+    "buy_ratio",
+    "spread"
+  ],
+  "avg_prediction_time_ms": 29.11366844177246,
+  "predictions_per_second": 34.34812765007635,
+  "training_time_seconds": 0.17267274856567383,
+  "n_train": 19113,
+  "n_test": 6371,
+  "export_timestamp": "20250902_215305",
+  "model_filename": "compact_rf_model_20250902_215305.joblib"
+}

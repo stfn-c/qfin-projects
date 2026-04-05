@@ -1,0 +1,1 @@
+used while setting up / learning hwo the thing works. leaving it here to come back to. moving to phase 2 to acutally make a good MM bot
