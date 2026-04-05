@@ -228,24 +228,6 @@ Several visualization techniques were employed throughout the development proces
 
 6. **Cross-Validation Value:** Forward chaining cross-validation reveals how statistical relationships evolve over time, providing insights into model stability and potential regime changes
 
-## Future Research Directions
-
-Several avenues warrant further investigation:
-
-- **Dynamic Exit Strategies:** Implementing adaptive exit mechanisms based on market conditions rather than fixed thresholds
-
-- **Regime-Based Coefficient Estimation:** Automatically detecting regime changes and recalibrating model coefficients accordingly
-
-- **Model Simplification:** Exploring simpler models with fewer parameters to improve generalization, particularly for the UEC strategy
-
-- **Volatility-Based Position Sizing:** Incorporating dynamic position sizing based on current volatility and signal strength
-
-- **Alternative Risk Management:** Developing ratio-based stop-loss mechanisms rather than fixed price thresholds
-
-- **Ensemble Approaches:** Combining multiple strategies to offset individual weaknesses and capitalize on diverse strengths
-
-- **Machine Learning Integration:** Applying feature selection and non-linear pattern recognition techniques to enhance statistical approaches
-
 ---
 
 *Note: This project was developed for an educational trading competition using simulated financial data. Performance metrics should not be interpreted as indicative of real-market results.*
